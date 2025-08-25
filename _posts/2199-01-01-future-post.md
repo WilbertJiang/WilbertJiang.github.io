@@ -1,6 +1,6 @@
 ---
 title: 'Wenqiang Diao'
-date: Graduate
+date: 2000-01-11
 permalink: /posts/2012/08/blog-post-4/
 tags:
   - cool posts
