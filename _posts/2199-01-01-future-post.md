@@ -1,6 +1,6 @@
 ---
-title: 'Wenqiang Diao'
-date: 2000-01-11
+title: 'WenqiangDiao'
+date: 2000-09-02
 permalink: /posts/2012/08/blog-post-4/
 tags:
   - cool posts
