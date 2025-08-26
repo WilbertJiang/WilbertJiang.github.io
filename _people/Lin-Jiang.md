@@ -1,7 +1,7 @@
 ---
 name: "Lin Jiang"
 position: "Associate Professor"
-image: "/images/500x300.png"
+image: "/images/jiang.jpg"
 excerpt: "Short description of portfolio item number 1"
 collection: people
 ---
