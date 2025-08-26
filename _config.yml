@@ -226,7 +226,7 @@ collections:
     permalink: /:collection/:path/
   people:
     output: true
-    permalink: /people/:path/
+    permalink: /:collection/:path/
 
 
 
@@ -291,9 +291,9 @@ defaults:
       type: people
     values:
       layout: single
-      author_profile: false
-      share: false
-      comments: false
+      author_profile: true
+      share: true
+      comments: true
 
 
 
