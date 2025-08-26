@@ -1,8 +1,8 @@
 ---
 name: "Zhaoyang Zhang"
-position: "Master Student"
+position: "2025"
 role: master
-image: "/images/Lin_Jiang_png.png"
+image: "/images/zhangzhaoyang.jpg"
 excerpt: "Short description of portfolio item number 1"
 collection: people
 ---
