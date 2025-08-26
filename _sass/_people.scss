@@ -1,10 +1,18 @@
-/* Force rectangle shape for people images */
-.person img, 
-.person img * {
-  width: 180px !important;
-  height: 120px !important;
-  object-fit: cover !important;
-  border-radius: 0 !important;
-  display: block !important;
-  margin: 0 auto !important;
+.people-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.person-card {
+  text-align: center;
+}
+
+.person-card img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0; /* rectangle corners */
+  display: block;
+  margin: 0 auto;
 }
