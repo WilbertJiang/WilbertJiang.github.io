@@ -224,6 +224,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  people:
+    output: true
+    permalink: /people/:path/
+
 
 
 # These settings control how pages and collections are included in the site
@@ -281,6 +285,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
+
 
 
 # Sass/SCSS
