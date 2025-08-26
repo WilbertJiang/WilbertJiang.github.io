@@ -1,9 +1,10 @@
-/* Custom styles for people collection */
-.person img {
-  width: 180px;          /* rectangle width */
-  height: 120px;         /* rectangle height */
-  object-fit: cover;     /* crop edges instead of stretching */
-  border-radius: 0 !important;  /* force sharp corners */
-  display: block;
-  margin: 0 auto;        /* center horizontally */
+/* Force rectangle shape for people images */
+.person img, 
+.person img * {
+  width: 180px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
