@@ -21,7 +21,7 @@ repository               : "https://github.com/WilbertJiang/WilbertJiang.github.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./images/jianglin.png"
+  avatar           : "jianglin.png"
   name             : "Lin Jiang"
   pronouns         : #"he/his"  
   bio              : #"Short biography for the left-hand sidebar"
