@@ -40,7 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 .person img {
-  border-radius: 50%;   /* perfect circle */
-  /* border-radius: 0;  <-- rectangle */
+  /*border-radius: 50%;   /* perfect circle */
+  border-radius: 0;  <-- rectangle */
   /* border-radius: 10px; <-- rounded corners */
 }
