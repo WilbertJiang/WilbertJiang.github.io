@@ -1,9 +1,9 @@
 /* Custom styles for people collection */
 .person img {
-  width: 150px;          /* force square */
-  height: 150px;         /* same as width */
+  width: 180px;          /* rectangle width (adjust as you like) */
+  height: 120px;         /* rectangle height (adjust as you like) */
   object-fit: cover;     /* crop edges instead of stretching */
-  border-radius: 50%;    /* makes it a circle */
+  border-radius: 0;      /* sharp corners (rectangle) */
   display: block;
   margin: 0 auto;        /* center horizontally */
 }
