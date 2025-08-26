@@ -35,28 +35,24 @@ All News
   <div style="display: flex; gap: 20px;">
   <figure>
     <img src="images/ISCAS1.jpg" alt="" width="300">
-    <figcaption></figcaption>
   </figure>
 
   <figure>
     <img src="images/ISCAS2.jpg" alt=" " width="300">
-    <figcaption> </figcaption>
   </figure>
-</div>
+  </div>
 
 -  **June 2022:** I gave a talk at the ITherm conference and won the best paper award!.
  
   <div style="display: flex; gap: 20px;">
   <figure>
     <img src="images/ITherm1.jpg" alt="" width="300">
-    <figcaption> </figcaption>
   </figure>
 
   <figure>
-    <img src="images/BPA.jpg" alt=" " width="300">
-    <figcaption> </figcaption>
+    <img src="images/BPA.jpg" alt=" " width="400">
   </figure>
-</div>
+  </div>
   
 
 
