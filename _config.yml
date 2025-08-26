@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home Page"
+title                    : "ChipTherm Lab"
 title_separator          : "-"
 name                     : &name "Dr. Lin Jiang"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "https://github.com/WilbertJiang/WilbertJiang.github.
 author:
   # Biographic information
   avatar           : "Lin_Jiang_png.png"
-  name             : "Lin Jiang"
+  name             : "Assoc. Prof. Lin Jiang"
   pronouns         : #"he/his"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Shenyang, China"
