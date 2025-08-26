@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : ./images/jianglin.jpg
+  avatar           : "jianglin.jpg"
   name             : "Lin Jiang"
   pronouns         : #"he/his"  
   bio              : #"Short biography for the left-hand sidebar"
