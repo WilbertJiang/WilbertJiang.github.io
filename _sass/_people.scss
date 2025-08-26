@@ -1,0 +1,9 @@
+/* Custom styles for people collection */
+.person img {
+  width: 150px;          /* force square */
+  height: 150px;         /* same as width */
+  object-fit: cover;     /* crop edges instead of stretching */
+  border-radius: 50%;    /* makes it a circle */
+  display: block;
+  margin: 0 auto;        /* center horizontally */
+}
