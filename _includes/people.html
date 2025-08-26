@@ -1,5 +1,7 @@
 <!-- People Section -->
-<h2>Professors</h2>
+
+<!-- Principal Investigator -->
+<h2>Principal Investigator</h2>
 <div class="people-section">
   {% for person in site.people %}
     {% if person.role == "professor" %}
@@ -14,10 +16,14 @@
   {% endfor %}
 </div>
 
-<h2>Students</h2>
-<div class="people-section">
+
+<!-- Graduate Students -->
+<h2>Graduate Students</h2>
+
+<h3>PhD Students</h3>
+<div class="people-section grid-4">
   {% for person in site.people %}
-    {% if person.role == "student" %}
+    {% if person.role == "phd" %}
       <div class="person-card">
         {% if person.image %}
           <img src="{{ person.image }}" alt="{{ person.name }}">
@@ -28,3 +34,63 @@
     {% endif %}
   {% endfor %}
 </div>
+
+<h3>Master Students</h3>
+<div class="people-section grid-4">
+  {% for person in site.people %}
+    {% if person.role == "master" %}
+      <div class="person-card">
+        {% if person.image %}
+          <img src="{{ person.image }}" alt="{{ person.name }}">
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.position }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<!-- Undergraduate Students -->
+<h2>Undergraduate Students</h2>
+<div class="people-section">
+  {% for person in site.people %}
+    {% if person.role == "undergrad" %}
+      <div class="person-card">
+        {% if person.image %}
+          <img src="{{ person.image }}" alt="{{ person.name }}">
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.position }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<!-- Interns -->
+<h2>Interns</h2>
+<div class="people-section grid-4">
+  {% for person in site.people %}
+    {% if person.role == "intern" %}
+      <div class="person-card">
+        {% if person.image %}
+          <img src="{{ person.image }}" alt="{{ person.name }}">
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.position }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<!-- Graduates -->
+<h2>Graduates</h2>
+<ul class="graduates-list">
+  {% for person in site.people %}
+    {% if person.role == "graduate" %}
+      <li>{{ person.name }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
