@@ -5,8 +5,8 @@ permalink: /people/
 author_profile: true
 ---
 
-## Professors
-
+<!-- Professors Section -->
+<h2 class="section-title">Principle Investigator</h2>
 <div class="people-section">
 {% for person in site.people %}
   {% if person.role == "professor" %}
@@ -14,7 +14,7 @@ author_profile: true
       {% if person.image %}
         <img src="{{ person.image }}" alt="{{ person.name }}" style="width:180px; height:120px; object-fit:cover; border-radius:0;">
       {% endif %}
-      <h2>{{ person.name }}</h2>
+      <h3>{{ person.name }}</h3>
       <p><strong>{{ person.position }}</strong></p>
       <p>{{ person.content | markdownify }}</p>
     </div>
@@ -22,8 +22,8 @@ author_profile: true
 {% endfor %}
 </div>
 
-## Students
-
+<!-- Students Section -->
+<h2 class="section-title">Graduate Students</h2>
 <div class="people-section">
 {% for person in site.people %}
   {% if person.role == "student" %}
@@ -31,7 +31,7 @@ author_profile: true
       {% if person.image %}
         <img src="{{ person.image }}" alt="{{ person.name }}" style="width:180px; height:120px; object-fit:cover; border-radius:0;">
       {% endif %}
-      <h2>{{ person.name }}</h2>
+      <h3>{{ person.name }}</h3>
       <p><strong>{{ person.position }}</strong></p>
       <p>{{ person.content | markdownify }}</p>
     </div>
