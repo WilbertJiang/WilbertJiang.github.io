@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "ChipTherm Lab"
+title                    : "ChipTherm-X Lab"
 title_separator          : "-"
 name                     : &name "Dr. Lin Jiang"
 description              : &description "personal description"
