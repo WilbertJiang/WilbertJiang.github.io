@@ -22,7 +22,7 @@ All News
 - **June 2025:** One co-authored paper has been accepted to ICCAD 2025!
   
   <figure>
-  <img src="images/ICCAD.png" alt="" width="200">
+  <img src="images/ICCAD.png" alt="" width="100">
   <figcaption> </figcaption>
   </figure>
 - **June 2025:** We are pleased to announce that one of our proposals has been granted!
@@ -50,7 +50,7 @@ All News
   </figure>
 
   <figure>
-    <img src="images/BPA.jpg" alt=" " width="400">
+    <img src="images/BPA.jpg" alt=" " width="600">
   </figure>
   </div>
   
