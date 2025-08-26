@@ -22,7 +22,7 @@ All News
 - One co-authered paper is accepted by ICCAD 2025!
   
   <figure>
-  <img src="images/figure1.png" alt="My Figure" width="400">
+  <img src="images/ICCAD.png" alt="" width="400">
   <figcaption>Figure 1: Description of the figure.</figcaption>
   </figure>
 
