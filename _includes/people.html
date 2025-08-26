@@ -1,0 +1,31 @@
+<!-- People Section -->
+
+<h2>Professors</h2>
+<div class="people-section">
+  {% for person in site.people %}
+    {% if person.role == "professor" %}
+      <div class="person-card">
+        {% if person.image %}
+          <img src="{{ person.image }}" alt="{{ person.name }}">
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.position }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Students</h2>
+<div class="people-section">
+  {% for person in site.people %}
+    {% if person.role == "student" %}
+      <div class="person-card">
+        {% if person.image %}
+          <img src="{{ person.image }}" alt="{{ person.name }}">
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.position }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
