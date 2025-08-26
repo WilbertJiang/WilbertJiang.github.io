@@ -25,8 +25,8 @@ All News
   <img src="images/ICCAD.png" alt="" width="300">
   <figcaption> </figcaption>
   </figure>
--** June 2025:** We are pleased to announce that one of our proposals has been granted!
-- ** Jan. 2025:** I have joined Northeastern University as an Associate Professor.
+-**June 2025:** We are pleased to announce that one of our proposals has been granted!
+- **Jan. 2025:** I have joined Northeastern University as an Associate Professor.
   
 
 
