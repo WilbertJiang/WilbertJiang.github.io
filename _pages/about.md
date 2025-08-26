@@ -22,7 +22,7 @@ All News
 - **June 2025:** One co-authored paper has been accepted to ICCAD 2025!
   
   <figure>
-  <img src="images/ICCAD.png" alt="" width="300">
+  <img src="images/ICCAD.png" alt="" width="200">
   <figcaption> </figcaption>
   </figure>
 - **June 2025:** We are pleased to announce that one of our proposals has been granted!
@@ -45,10 +45,11 @@ All News
 </div>
 
 -  **June 2022:** I gave a talk at the ITherm conference and won the best paper award!.
-    <div style="display: flex; gap: 20px;">
+ 
+  <div style="display: flex; gap: 20px;">
   <figure>
     <img src="images/ITherm1.jpg" alt="" width="300">
-    <figcaption></figcaption>
+    <figcaption> </figcaption>
   </figure>
 
   <figure>
