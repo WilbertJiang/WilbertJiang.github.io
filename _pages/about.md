@@ -19,6 +19,7 @@ All News
 
 2025
 ======
+- **Sep. 2025:** One co-authored paper has been accepted to ASP-DAC 2025!
 - **June 2025:** One co-authored paper has been accepted to ICCAD 2025!
   
   <figure>
