@@ -19,6 +19,7 @@ All News
 
 2025
 ======
+- **Oct. 2025:** Congratulations! Our paper, entitled "Effective Thermal Modeling for Large-Scale Many-Core GPUs Using Local Physics-based Data-Learning Approach", is accepted by Structural and Multidisciplinary Optimization.
 - **Sep. 2025:** One co-authored paper has been accepted to ASP-DAC 2025!
 - **June 2025:** One co-authored paper has been accepted to ICCAD 2025!
   
