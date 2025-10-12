@@ -14,11 +14,9 @@ The ChipTherm - X research group, led by Associate Professor Lin Jiang at Northe
 News!
 ======
 
-All News
-======
-
 2025
 ======
+- **Oct. 2025:** Congratulations to our group member Junshan Han for ranking first and winning the National Scholarship!
 - **Oct. 2025:** Congratulations! Our paper, entitled "Effective Thermal Modeling for Large-Scale Many-Core GPUs Using Local Physics-based Data-Learning Approach", is accepted by Structural and Multidisciplinary Optimization.
 - **Sep. 2025:** One co-authored paper has been accepted to ASP-DAC 2025!
 - **June 2025:** One co-authored paper has been accepted to ICCAD 2025!
