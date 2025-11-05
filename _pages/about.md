@@ -18,7 +18,7 @@ News!
 ======
 - **Nov. 2025:** Prof. Jiang had been invited to give a talk on TengChong Scientists Forum!!!
   <figure>
-  <img src="images/致姜霖先生的邀请函_revised.png" alt="" width="100">
+  <img src="images/致姜霖先生的邀请函_revised.png" alt="" height="100">
   <figcaption> </figcaption>
   </figure>
 - **Oct. 2025:** Congratulations to our group member **Junshan Han** for ranking first and winning the National Scholarship!
