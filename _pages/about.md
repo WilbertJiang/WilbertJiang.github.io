@@ -16,6 +16,11 @@ News!
 
 2025
 ======
+- **Nov. 2025:** Prof. Jiang had been invited to give a talk on TengChong Scientists Forum!!!
+  <figure>
+  <img src="images/致姜霖先生的邀请函_revised.png" alt="" width="100">
+  <figcaption> </figcaption>
+  </figure>
 - **Oct. 2025:** Congratulations to our group member **Junshan Han** for ranking first and winning the National Scholarship!
 - **Oct. 2025:** Congratulations! Our paper, entitled "Effective Thermal Modeling for Large-Scale Many-Core GPUs Using Local Physics-based Data-Learning Approach", is accepted by Structural and Multidisciplinary Optimization.
 - **Sep. 2025:** One co-authored paper has been accepted to ASP-DAC 2025!
