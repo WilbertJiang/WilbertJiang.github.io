@@ -1,5 +1,5 @@
 ---
-name: "Chenrui_Li"
+name: "Chenrui Li"
 position: "2024"
 role: undergrad
 image: "/images/People/Chenrui_Li.jpg"
