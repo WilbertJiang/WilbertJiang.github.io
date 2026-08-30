@@ -1,5 +1,5 @@
 ---
-name: "Jiajie_Li"
+name: "Jiajie Li"
 position: "2025"
 role: undergrad
 image: "/images/People/Jiajie_Li.jpg"
