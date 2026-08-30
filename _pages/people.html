@@ -91,11 +91,11 @@ author_profile: true
   {% endfor %}
 </div>
 
-<!-- Graduates -->
+<!-- Alumni -->
 <h2 class="section-title">Graduates</h2>
 <ul class="graduates-list">
   {% for person in site.people %}
-    {% if person.role == "graduate" %}
+    {% if person.role == "alumni" %}
       <li>{{ person.name }}</li>
     {% endif %}
   {% endfor %}
