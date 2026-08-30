@@ -1,5 +1,5 @@
 ---
-name: "Yijun_Zhang"
+name: "Yijun Zhang"
 position: "2026"
 role: master
 image: "/images/People/Yijun_Zhang.jpg"
