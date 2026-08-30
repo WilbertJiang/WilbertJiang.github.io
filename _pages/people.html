@@ -77,19 +77,20 @@ author_profile: true
 <!-- Interns -->
 <h2 class="section-title">Interns</h2>
 <div class="people-section grid-4">
-  {% for person in site.people %}
-    {% if person.role == "intern" %}
-      <div class="person-card">
-        {% if person.image %}
-          <img src="{{ person.image }}" alt="{{ person.name }}" style="width:180px; height:220px; object-fit:cover; border-radius:0;">
-        {% endif %}
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.position }}</p>
-        <p>{{ person.content | markdownify }}</p>
-      </div>
-    {% endif %}
+  {% assign intern_students = site.people | where: "role", "intern" | sort: "position"%}
+
+  {% for person in intern_students %}
+    <div class="person-card">
+      {% if person.image %}
+        <img src="{{ person.image }}" alt="{{ person.name }}" style="width:180px; height:220px; object-fit:cover; border-radius:0;">
+      {% endif %}
+      <h3>{{ person.name }}</h3>
+      <p>{{ person.position }}</p>
+      <p>{{ person.content | markdownify }}</p>
+    </div>
   {% endfor %}
 </div>
+
 
 <!-- Alumni -->
 <h2 class="section-title">Alumni</h2>
