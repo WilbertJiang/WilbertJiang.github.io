@@ -1,5 +1,5 @@
 ---
-name: "Haoyu_Zhu"
+name: "Haoyu Zhu"
 position: "2026"
 role: master
 image: "/images/People/Haoyu_Zhu.jpg"
