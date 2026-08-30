@@ -27,7 +27,7 @@ author_profile: true
 
 <h3>PhD Students</h3>
 <div class="people-section grid-4">
-  {% assign phd_students = site.people | where: "role", "phd" | sort: "position"}
+  {% assign phd_students = site.people | where: "role", "phd" | sort: "position"%}
 
   {% for person in phd_students %}
     <div class="person-card">
@@ -43,7 +43,7 @@ author_profile: true
 
 <h3>Master Students</h3>
 <div class="people-section grid-4">
-  {% assign master_students = site.people | where: "role", "master" | sort: "position" }
+  {% assign master_students = site.people | where: "role", "master" | sort: "position"%}
 
   {% for person in master_students %}
     <div class="person-card">
@@ -56,27 +56,11 @@ author_profile: true
     </div>
   {% endfor %}
 </div>
-<!--
-<div class="people-section grid-4">
-  {% for person in site.people %}
-    {% if person.role == "master" %}
-      <div class="person-card">
-        {% if person.image %}
-          <img src="{{ person.image }}" alt="{{ person.name }}" style="width:180px; height:220px; object-fit:cover; border-radius:0;">
-        {% endif %}
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.position }}</p>
-        <p>{{ person.content | markdownify }}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
--->
 
 <!-- Undergraduate Students -->
 <h2 class="section-title">Undergraduate Students</h2>
 <div class="people-section grid-4">
-  {% assign undergraduate_students = site.people | where: "role", "undergrad" | sort: "position"}
+  {% assign undergraduate_students = site.people | where: "role", "undergrad" | sort: "position"%}
 
   {% for person in undergraduate_students %}
     <div class="person-card">
@@ -108,7 +92,7 @@ author_profile: true
 </div>
 
 <!-- Alumni -->
-<h2 class="section-title">Graduates</h2>
+<h2 class="section-title">Alumni</h2>
 <ul class="graduates-list">
   {% for person in site.people %}
     {% if person.role == "alumni" %}
