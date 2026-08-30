@@ -43,7 +43,7 @@ author_profile: true
 
 <h3>Master Students</h3>
 <div class="people-section grid-4">
-  {% assign master_students = site.people | where: "role", "master" | sort: "year" | reverse %}
+  {% assign master_students = site.people | where: "role", "master" | sort: "person.position" | reverse %}
 
   {% for person in master_students %}
     <div class="person-card">
